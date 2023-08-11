@@ -11,16 +11,16 @@ const Login = () => {
     const config = {
         products: [Products.emailMagicLinks, Products.oauth],
         emailMagicLinksOptions: {
-            loginRedirectURL: "http://localhost:3000",
+            loginRedirectURL: "https://crossmint-iota.vercel.app/",
             loginExpirationMinutes: 60,
-            signupRedirectURL: "http://localhost:3000",
+            signupRedirectURL: "https://crossmint-iota.vercel.app/",
             signupExpirationMinutes: 60,
         },
         oauthOptions: {
             providers: [{ type: "google" }],
-            loginRedirectURL: "http://localhost:3000",
+            loginRedirectURL: "https://crossmint-iota.vercel.app/",
             loginExpirationMinutes: 60,
-            signupRedirectURL: "http://localhost:3000",
+            signupRedirectURL: "https://crossmint-iota.vercel.app/",
             signupExpirationMinutes: 60,
         },
     };
